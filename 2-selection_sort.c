@@ -26,6 +26,7 @@ void selection_sort(int *array, size_t size)
 {
 	int *main;
 	size_t a, b;
+
 	if (array == NULL || size < 2)
 		return;
 
